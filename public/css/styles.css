@@ -1,11 +1,7 @@
-.form{
-    margin-left:10px;
-    margin-top: 10px;
-}
-.name-form{
-    padding-bottom: 10px;
-}
-.name-form>span{
-    color: rgb(235, 154, 33);
-    display: none;
+body
+{
+    font-size: medium;
+    background-color: darkslategray;
+    color: whitesmoke;
+
 }
