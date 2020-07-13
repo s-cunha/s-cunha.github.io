@@ -1,52 +1,39 @@
 .profile-picture {
-    border-radius: 50%;
+  border-radius: 50%;
   }
 body
 {
-    /* background: linear-gradient(to bottom, rgb(222, 232, 238) 0%,darkslategray 100%); */
-    background-image: linear-gradient(to right, rgba(116, 231, 248, 0.74), rgba(5, 112, 126, 0.795));
-    background-size:cover;
-    font-family: 'Baloo Da 2', sans-serif;
-    font-size: medium;
-    color: whitesmoke;
-    align-items: center;
-    justify-content: center;
-    height: 2000px;
-    margin: 0px;
-    padding: 0px;
-
+  background-image: linear-gradient(to right, rgba(116, 231, 248, 0.74), rgba(5, 112, 126, 0.795));
+  color: rgb(245, 247, 234);
+  font-family: 'Baloo Da 2', sans-serif;
+  font-size: medium;
+  height: 2000px;
+  margin: 0px;
+  padding: 20px;
 }
 
 .wrapper
 {
-    align-items: center;
-    font-family: 'Baloo Da 2', sans-serif;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
 
 }
 
 
 .topnav {
-  background-color: #333;
+  position: fixed;
   overflow: hidden;
   width: 100%;
-  background-color: turquoise;
-  color: rgba(226, 198, 43, 0.89);
-  font-family: 'Baloo Da 2', sans-serif;
+  background-color: rgb(8, 105, 122);
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
-  margin-left: 1cm;
-  margin-right: 1 cm;
+  color: blanchedalmond;
   float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  padding: 15px 15px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
@@ -55,56 +42,47 @@ body
   color: grey;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #f5eae0;
-  color: rgba(241, 124, 56, 0.986);
-}
-/* 
-.home{
-  display: inline-flex;
-  width: fit-content;
-  background-color: salmon;
-  color: rgba(99, 247, 14, 0.548);
-
-}
-.about{
-  padding-top: 50%
-  width: fit-content;
-  background-color: salmon;
-  color: rgba(99, 247, 14, 0.548);
-}
-.contact{
-  margin-left: auto;
-  display: inline-flex;
-  width: fit-content;
-  background-color: salmon;
-  color: rgba(99, 247, 14, 0.548);
-} */
 
 .Identification, .Background
 { 
-    align-items: center;
-    margin: 5px;
-    max-width: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+  padding-top: 2cm;
+  align-items: left;
+  margin: 5px;
+  max-width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-.Background
+.edu  {
+  margin-top: 2cm;
+  padding-top: 2cm;
+}
+.careers  {
+  margin-top: 2cm;
+  padding-top: 2cm;
+}
+
+.edu a {
+  display: inline-block;
+  margin-top: 2cm;
+  padding-top: 2cm;
+  list-style: none;
+}
+.careers a {
+  display: inline-block;
+  margin-top: 2cm;
+  padding-top: 2cm;
+  list-style: none;
+}
+
+.social-links 
 {
-    align-items: center;
-    justify-content: left;
-
+  padding-top: 2cm;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 18px;
 }
-
-.social-links {
-    list-style: none;
-    padding-left: 0px;
-    font-size: 18px;
-  }
   
   .social-links li {
     display: inline-block;
@@ -116,7 +94,8 @@ body
     padding: 4px;
   }
   
-  .social-links a:hover {
+  .social-links a:hover 
+  {
     background-color: rgba(27, 231, 180, 0.644);
     color: whitesmoke;
   }
