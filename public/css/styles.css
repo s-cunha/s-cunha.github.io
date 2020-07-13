@@ -11,7 +11,7 @@ body
     color: whitesmoke;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 2000px;
     margin: 0px;
     padding: 0px;
 
@@ -26,6 +26,61 @@ body
     flex-direction: column;
 
 }
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  background-color: turquoise;
+  color: rgba(226, 198, 43, 0.89);
+  font-family: 'Baloo Da 2', sans-serif;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  margin-left: 1cm;
+  margin-right: 1 cm;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:salmon;
+  color: grey;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f5eae0;
+  color: rgba(241, 124, 56, 0.986);
+}
+/* 
+.home{
+  display: inline-flex;
+  width: fit-content;
+  background-color: salmon;
+  color: rgba(99, 247, 14, 0.548);
+
+}
+.about{
+  padding-top: 50%
+  width: fit-content;
+  background-color: salmon;
+  color: rgba(99, 247, 14, 0.548);
+}
+.contact{
+  margin-left: auto;
+  display: inline-flex;
+  width: fit-content;
+  background-color: salmon;
+  color: rgba(99, 247, 14, 0.548);
+} */
 
 .Identification, .Background
 { 
