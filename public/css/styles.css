@@ -23,6 +23,7 @@ body
 
 
 .topnav {
+  top:0;
   position: fixed;
   overflow: hidden;
   width: 100%;
