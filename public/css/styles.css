@@ -39,8 +39,8 @@ body
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color:salmon;
-  color: grey;
+  background-color:rgba(88, 240, 220, 0.747);
+  color: rgb(252, 252, 252);
 }
 
 
