@@ -55,6 +55,12 @@ body
   flex-direction: column;
 }
 
+.recodme a:hover
+{
+  background-color: rgba(27, 231, 180, 0.644);
+  color: whitesmoke;
+}
+
 .edu  {
   margin-top: 2cm;
   padding-top: 2cm;
