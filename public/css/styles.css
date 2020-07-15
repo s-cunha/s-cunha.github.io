@@ -7,7 +7,7 @@ body
   color: rgb(245, 247, 234);
   font-family: 'Baloo Da 2', sans-serif;
   font-size: medium;
-  height: 2000px;
+  height: 3000px;
   margin: 0px;
   padding: 20px;
 }
@@ -62,12 +62,17 @@ body
 }
 
 .edu  {
-  margin-top: 2cm;
-  padding-top: 2cm;
+  margin-top: 5cm;
+  padding-top: 5cm;
 }
 .careers  {
-  margin-top: 2cm;
-  padding-top: 2cm;
+  margin-top: 5cm;
+  padding-top: 5cm;
+}
+.contacts
+{
+  margin-top: 5cm;
+  padding-top: 5cm;
 }
 
 .edu a {
