@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Baloo+Da+2" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="public/lib/font-awesome/css/all.css"> -->
+        <link rel="stylesheet" href="public/lib/font-awesome/css/all.css">
         <!-- <script src="https://unpkg.com/feather-icons"></script>
         <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script> -->
         <link rel="stylesheet" href="public/css/styles.css">
@@ -20,32 +20,84 @@
         <div class="wrapper">
 
             <div class="topnav">
-                <div class= "home"><a class="active" href="https://s-cunha.github.io/">Home</a></div>
-                <div class="education"><a href="#education">Education</a></div>
-                <div class="career"><a href="#career">Career</a></div>
-                <div class="contact"><a href="#contact">Social</a></div>
-                
+                <div class="contact">
+                    <a href="#contact" class="fas fa-user-friends">Social</a>
+                </div>
+                <div class="career">
+                    <a href="#career" class="fas fa-briefcase">Career</a>
+                </div>
+                <div class="education">
+                    <a href="#education" class="fas fa-university">Education</a>
+                </div>
+                <div class= "home">
+                    <a href="https://s-cunha.github.io/" class="fas fa-home">Home</a>
+                </div>
+
             </div>
 
-            <div class="Identification"><img class="profile-picture" src="public\images\0.jpg" width="150" />
-
-                <h1>Sofia Cunha</h1>
+            <div class="Identification">
+                <img class="profile-picture" src="public\images\0.jpg" width="125" />
+                <hr class="rounded #bbb">
+                <h2>Sofia Cunha</h2>
                 <h4>C#, HTML, CSS, Javascript Student</h4>
-                <h5><a class="recodme" href="http://www.recodme.pt/" target="_blank">Recodme</a> student</h5>
+                <h5><a class="recodme" href="http://www.recodme.pt/" target="_blank">Recodme</a> alumni</h5>
             </div>
 
             <div class="Background">
                 <div class="edu"> 
                     <a id="education">
-                        <h4>Education</h4>
-                        <p>Bachelor Degree in Chemical and Biochemical Engineering.</p>
+                        <h4 class="fas fa-university">Education</h4>
+                        <p></p>
+                        <div class="card">
+                            <div class="card-header">
+                                RECODME Academy
+                            </div>
+                            <div class="card-body">
+                                Intensive course in computer science.
+                                C#, HTML, CSS, Javascript, SQL.
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card bg-black">
+                            <div class="card-header">
+                                NOVA School of Science and Technology (FCT NOVA)
+                                September 2008 until December 2012
+                            </div>
+                            <div class="card-body">
+                                Bachelor Degree in Chemical and Biochemical Engineering.
+                            </div>
+                        </div>
+                        <p></p>
                            
                     </a>
                 </div> 
+
                 <div class="careers">
                     <a id="career">
-                        <h4>Career</h4>
-                        <p>Formerly worked as technical support.</p>
+                        <h4 class="fas fa-briefcase">Career</h4>
+                        <p></p>
+                        <table class="container" style="width:150%">
+                            <tr class="mb-2 mr-2 ml-2 mt-2">
+                              <th class="mb-2 mr-2 ml-2 mt-2">Role</th>
+                              <th class="mb-2 mr-2 ml-2 mt-2">Company</th>
+                              <th class="mb-2 mr-2 ml-2 mt-2">Duration</th>
+                            </tr>
+                            <tr>
+                              <td class="mb-2 mr-2 ml-2 mt-2">Senior Technical Support</td>
+                              <td class="mb-2 mr-2 ml-2 mt-2">Sellbytel/WebHelp</td>
+                              <td class="mb-2 mr-2 ml-2 mt-2">April 2018 to November 2018</td>
+                            </tr>
+                            <tr>
+                              <td class="mb-2 mr-2 ml-2 mt-2">Technical Support</td>
+                              <td class="mb-2 mr-2 ml-2 mt-2">Sellbytel/WebHelp</td>
+                              <td class="mb-2 mr-2 ml-2 mt-2">July 2016 to March 2018</td>
+                            </tr>
+                            <tr>
+                                <td class="mb-2 mr-2 ml-2 mt-2">Receptionist</td>
+                                <td class="mb-2 mr-2 ml-2 mt-2">Inatel Foundation</td>
+                                <td class="mb-2 mr-2 ml-2 mt-2">April 2015 to July 2016</td>
+                              </tr>
+                          </table>
                     </a>
                     
                 </div>
@@ -55,10 +107,10 @@
                             
                             <ul>
                                 <li>
-                                    <a href="https://www.github.com/s-cunha" class="fa fa-github" target="_blank"> </a>
+                                    <a href="https://www.github.com/s-cunha" class="fab fa-github" target="_blank"> </a>
                                 </li>
                                 <li>
-                                   <a href="https://www.linkedin.com/in/sofia-esteves-cunha-43737b67/" class="fa fa-linkedin" target="_blank"> </a>
+                                   <a href="https://www.linkedin.com/in/sofia-esteves-cunha-43737b67/" class="fab fa-linkedin" target="_blank"> </a>
                                 </li>
                         
                              </ul>
@@ -69,16 +121,13 @@
                 </div>
              
             </div>
-
-            
+            <footer class="footer">
+                &copy; 2020 - Personal Page - Sofia Cunha
+            </footer>
 
         </div>
 
-        
-        
 
-        
-        
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -89,6 +138,8 @@
         <script>
             feather.replace()
         </script>
+        
 
     </body>
+    
 </html>
