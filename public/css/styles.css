@@ -1,4 +1,6 @@
-
+.container3{
+    padding-top: 2cm;
+}
 .card{
     
     background-color: floralwhite;
@@ -44,6 +46,9 @@ footer{
     background-color: rgb(8, 105, 122);
     color: cornsilk;
 }
+.picture {
+    border-radius: 25%;
+    }
 .profile-picture {
     border-radius: 50%;
     }
@@ -58,7 +63,7 @@ body
     color: rgb(246, 250, 246);
     font-family: 'Baloo Da 2', sans-serif;
     font-size: medium;
-    height: 3000px;
+    height: 4000px;
     margin: 0px;
     padding: 20px;
 }
@@ -123,8 +128,8 @@ body
 }
 .contacts
 {
-margin-top: 4cm;
-padding-top: 2cm;
+margin-top: 10cm;
+padding-top: 5cm;
 }
 
 .edu a {
