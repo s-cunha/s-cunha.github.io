@@ -1,9 +1,38 @@
 
+.card{
+    
+    background-color: floralwhite;
+    color: rgb(1, 79, 102);
+}
 
-table, th, td {
+.container2{
+    border-radius: 25px;
+    background-color: rgb(2, 81, 105);
+    color: floralwhite;
+    padding: 15px;
+}
+.tableclass{
+    margin: 2px;
+}
+.container{
+    background-color: floralwhite;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: darkslategrey;
+}
+list{
+
+    background-color: rgb(223, 245, 227);
+    color: rgb(2, 83, 116);
+}
+
+  td{
     border: 1px solid black;
     background-color: rgb(223, 245, 227);
     color: rgb(2, 83, 116);
+    padding:5px;
   }
   th{
       text-align: center;
@@ -68,7 +97,7 @@ body
 .Identification, .Background
 { 
     padding-top: 2cm;
-    align-items: left;
+    align-items: center;
     margin: 5px;
     max-width: 100%;
     flex: 1;
@@ -94,8 +123,8 @@ body
 }
 .contacts
 {
-margin-top: 5cm;
-padding-top: 5cm;
+margin-top: 4cm;
+padding-top: 2cm;
 }
 
 .edu a {
@@ -113,20 +142,17 @@ list-style: none;
 
 .social-links 
 {
-padding-top: 2cm;
 list-style: none;
 padding-left: 0px;
-font-size: 18px;
+font-size: 30px;
 }
 
 .social-links li {
     display: inline-block;
-    margin-right: 8px;
 }
 
 .social-links a {
     text-decoration:none;
-    padding: 4px;
 }
 
 .social-links a:hover 
